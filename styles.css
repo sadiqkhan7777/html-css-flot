@@ -1,0 +1,75 @@
+/* Genral body styling */
+body {
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+
+/* Section styling */
+.section {
+ display: flex;
+ justify-content: center;
+ flex-wrap: wrap;
+ margin: 20px;
+ padding: 10px;
+ background-color: #fff;
+}
+
+/* Text styling */
+.text {
+    flex: 1;
+    margin-top: 20px;
+    margin-right: 20px;
+    margin-left: 20px;
+}
+
+/* Image styling */
+img {
+    margin: 10px;
+    margin-top: 50px;
+    height: 140px;
+    width: 140px;
+}
+
+/* Code box styling */
+.code-box {
+    background-color: #000000;
+    margin-top: 20px;
+    margin-right: 40px;
+    border-radius: 15px;
+    width: 220px;
+    height: 180px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* syntax highlighting */
+.property {
+    color: yellow;
+}
+
+.key {
+    color: lightgreen;
+}
+
+.value {
+    color: red;
+}
+
+.bracket {
+    margin-left: 10px;
+    color: white;
+}
+
+.bracket2 {
+    color: white;
+}
+
+code {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 16px;
+    line-height: 16px;
+    word-spacing: -19px;
+}
